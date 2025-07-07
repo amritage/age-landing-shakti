@@ -17,7 +17,7 @@ export default function ContactForm() {
         </div>
 
         {/* Form Section (static, no JS) */}
-        <div className="space-y-6 text-primary p-6 bg-whitee rounded-3xl shadow-lg">
+        <div className="space-y-6 text-primary p-6 bg-white rounded-3xl shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input type="text" name="firstName" placeholder="First Name" required aria-label="First Name" className="w-full px-4 py-3 border border-gray-300 rounded" autoComplete='true' disabled />
             <input type="text" name="lastName" placeholder="Last Name" required aria-label="Last Name" className="w-full px-4 py-3 border border-gray-300 rounded" autoComplete='true' disabled />
